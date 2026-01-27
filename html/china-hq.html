@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            border-width: 0;
+        }
+        
+        .flag {
+            width: 300px;
+            height: 200px;
+            background: red;
+            position: relative;
+        }
+        
+        .pentagramMain {
+            margin-top: 40.73px;
+            margin-left: 21.47px;
+            width: 0;
+            height: 0;
+            border-top-color: yellow;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-top-width: 20.73px;
+            border-left-width: 28.53px;
+            border-right-width: 28.53px;
+            border-style: solid;
+            position: absolute;
+        }
+        
+        .pentagramMain::before {
+            border-width: 0;
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border-top-color: yellow;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-top-width: 20.73px;
+            border-left-width: 28.53px;
+            border-right-width: 28.53px;
+            border-style: solid;
+            position: absolute;
+            top: -20.73px;
+            left: -28.53px;
+            transform: rotate(72deg);
+            transform-origin: 28.53px 9.27px;
+        }
+        
+        .pentagramMain::after {
+            border-width: 0;
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border-top-color: yellow;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-top-width: 20.73px;
+            border-left-width: 28.53px;
+            border-right-width: 28.53px;
+            border-style: solid;
+            position: absolute;
+            top: -20.73px;
+            left: -28.53px;
+            transform: rotate(-72deg);
+            transform-origin: 28.53px 9.27px;
+        }
+        /* 小五角星 */
+        
+        .pentagram {
+            width: 0;
+            height: 0;
+            position: absolute;
+            border-top: 6.91px solid yellow;
+            border-left: 9.51px solid transparent;
+            border-right: 9.51px solid transparent;
+            transform-origin: 9.51px 3.09px;
+        }
+        
+        .pentagram::before {
+            position: absolute;
+            width: 0;
+            height: 0;
+            content: '';
+            display: block;
+            border-top: 6.91px solid yellow;
+            border-left: 9.51px solid transparent;
+            border-right: 9.51px solid transparent;
+            top: -6.91px;
+            left: -9.51px;
+            transform: rotate(72deg);
+            transform-origin: 9.51px 3.09px;
+        }
+        
+        .pentagram::after {
+            border-width: 0;
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border-top-color: yellow;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-top: 6.91px solid yellow;
+            border-left: 9.51px solid transparent;
+            border-right: 9.51px solid transparent;
+            border-style: solid;
+            position: absolute;
+            top: -6.91px;
+            left: -9.51px;
+            transform: rotate(-72deg);
+            transform-origin: 9.51px 3.09px;
+        }
+        
+        .one {
+            top: 16.91px;
+            left: 90.49px;
+            transform: rotate(-48.96deg);
+        }
+        
+        .two {
+            top: 36.91px;
+            left: 110.49px;
+            transform: rotate(-26.13deg);
+        }
+        
+        .three {
+            top: 66.91px;
+            left: 110.49px;
+            transform: rotate(-2.06deg);
+        }
+        
+        .four {
+            top: 86.91px;
+            left: 90.49px;
+            transform: rotate(20.66deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class='flag'>
+        <div class='pentagramMain'></div>
+        <div class='pentagram one'></div>
+        <div class='pentagram two'></div>
+        <div class='pentagram three'></div>
+        <div class='pentagram four'></div>
+    </div>
+</body>
+
+</html>
