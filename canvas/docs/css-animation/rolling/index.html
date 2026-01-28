@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>滚动动画</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/roll1.css">
+    <link rel="stylesheet" href="./css/roll2.css">
+</head>
+
+<body>
+    <!-- H5移动端获奖无缝滚动动画 -->
+    <div class="roll" id="roll">
+        <!-- 方法一 -->
+        <ul>
+            <li>第一个结构</li>
+            <li>第二个结构</li>
+            <li>第三个结构</li>
+            <li>第四个结构</li>
+            <li>第五个结构</li>
+            <li>第六个结构</li>
+            <li>第七个结构</li>
+            <li>第八个结构</li>
+        </ul>
+    </div>
+
+    <!-- 方法二 -->
+    <div class="roll roll2" id="roll2">
+        <ul>
+            <li>第一个结构</li>
+            <li>第二个结构</li>
+            <li>第三个结构</li>
+            <li>第四个结构</li>
+            <li>第五个结构</li>
+            <li>第六个结构</li>
+            <li>第七个结构</li>
+            <li>第八个结构</li>
+        </ul>
+    </div>
+
+    <!-- 实现页面无限滚动 -->
+    <div id="container">
+        <div class="img-area"><img class="my-photo" alt="loading" src="http://www.pig66.com/uploadfile/2017/0511/20170511074941292.jpg" /></div>
+        <div class="img-area"><img class="my-photo" alt="loading" src="http://5b0988e595225.cdn.sohucs.com/images/20170826/b6fc1b92d3384f7f96a0e7a7e073d579.jpeg" /></div>
+        <div class="img-area"><img class="my-photo" alt="loading" src="http://img3.100bt.com/upload/ttq/20130323/1364004564120.png" /></div>
+        <div class="img-area"><img class="my-photo" alt="loading" src="http://img.ewebweb.com/uploads/20190403/15/1554274812-UChboYDiuM.jpeg" /></div>
+    </div>
+    <div class="scrollerFooter1">
+        没有内容了
+    </div>
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="./js/roll1.js"></script>
+<script src="./js/roll2.js"></script>
+
+</html>
