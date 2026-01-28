@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="robots" content="noindex, nofollow"/>
+    <meta name="googlebot" content="noindex, nofollow"/>
+    <meta id="viewport" name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <title>tabbar动画 - JSRUN 驱动</title>
+
+        <script type="text/javascript" src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://jsrun.net/res/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+<script type="application/javascript" src="main.js"></script>
+
+</head>
+<body>
+<svg width="0" height="0">
+	<defs>
+		<!-- 转场渐变 -->
+		<linearGradient id="transition1_linear" x1="55.4167" y1="7.29167" x2="15.3125" y2="60.5208" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#F96C81" />
+			<stop offset="1" stop-color="#FFB2C1" />
+		</linearGradient>
+		<linearGradient id="transition2_linear" x1="55.4167" y1="7.29167" x2="15.3125" y2="60.5208" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FED966" />
+			<stop offset="1" stop-color="#FFECB0" />
+		</linearGradient>
+		<linearGradient id="transition3_linear" x1="55.4167" y1="7.29167" x2="15.3125" y2="60.5208" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#86B4FF" />
+			<stop offset="1" stop-color="#698AFF" />
+		</linearGradient>
+		<!-- 转场元素 -->
+		<g id="transition_move1">
+			<circle cx="24" cy="24" r="35" fill="url(#transition1_linear)"></circle>
+		</g>
+		<g id="transition_move2">
+			<circle cx="24" cy="24" r="35" fill="url(#transition2_linear)"></circle>
+		</g>
+		<g id="transition_move3">
+			<circle cx="24" cy="24" r="35" fill="url(#transition3_linear)"></circle>
+		</g>
+	</defs>
+</svg>
+<div class="tabbar">
+	<div class="tabbar__item on">
+		<div class="tabbar__svg">
+			<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<!-- 裁切路径 -->
+				<clipPath id="clipPath1">
+					<path id="home-clip-path" d="M27.9774 1.12273C25.5352 -0.37424 22.4648 -0.374244 20.0226 1.12272L6.00262 9.71614C2.44202 11.5204 0 15.2271 0 19.5068V37.0411C0 43.0935 4.88417 48 10.9091 48H37.0909C43.1158 48 48 43.0935 48 37.0411V19.5068C48 15.2271 45.558 11.5204 41.9974 9.71615L27.9774 1.12273Z"
+					 fill="#C4C4C4" />
+				</clipPath>
+				<!-- 组，图标路的元素集合 -->
+				<g clip-path="url(#clipPath1)">
+					<!-- 外线框 -->
+					<path id="home-border" d="M27.9774 1.12273C25.5352 -0.37424 22.4648 -0.374244 20.0226 1.12272L6.00262 9.71614C2.44202 11.5204 0 15.2271 0 19.5068V37.0411C0 43.0935 4.88417 48 10.9091 48H37.0909C43.1158 48 48 43.0935 48 37.0411V19.5068C48 15.2271 45.558 11.5204 41.9974 9.71615L27.9774 1.12273Z"
+					 stroke="#B1BACD" stroke-width="8" />
+					<use class="transition_move1" href="#transition_move1"></use>
+					<use class="transition_move2" href="#transition_move2"></use>
+					<use class="transition_move3" href="#transition_move3"></use>
+					<!-- 灰色小圆 -->
+					<path id="home-circle" d="M31 28C31 31.866 27.866 35 24 35C20.134 35 17 31.866 17 28C17 24.134 20.134 21 24 21C27.866 21 31 24.134 31 28Z"
+					 stroke="#B1BACD" stroke-width="4" />
+				</g>
+			</svg>
+		</div>
+		<div class="tabbar__name">首页</div>
+	</div>
+	<div class="tabbar__item">
+		<div class="tabbar__svg">
+			<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<!-- 裁切路径 -->
+				<clipPath id="clipPath2">
+					<path id="explore-clip-path" d="M0 14.5714C0 7.62842 5.60617 2 12.5217 2H35.4783C42.3938 2 48 7.62842 48 14.5714V33.4286C48 40.3716 42.3938 46 35.4783 46H12.5217C5.60617 46 0 40.3716 0 33.4286V14.5714Z"
+					 fill="#C4C4C4" />
+				</clipPath>
+				<!-- 组，图标路的元素集合 -->
+				<g clip-path="url(#clipPath2)">
+					<path id="explore-border" d="M0 14.5714C0 7.62842 5.60617 2 12.5217 2H35.4783C42.3938 2 48 7.62842 48 14.5714V33.4286C48 40.3716 42.3938 46 35.4783 46H12.5217C5.60617 46 0 40.3716 0 33.4286V14.5714Z"
+					 stroke="#B1BACD" stroke-width="8" />
+					<use class="transition_move1" href="#transition_move1"></use>
+					<use class="transition_move2" href="#transition_move2"></use>
+					<use class="transition_move3" href="#transition_move3"></use>
+					<path id="explore-arrow" d="M19.4845 19.2494C19.4845 18.4796 20.3178 17.9984 20.9845 18.3833L30.1441 23.6717C30.8108 24.0566 30.8108 25.0188 30.1441 25.4037L20.9845 30.692C20.3178 31.0769 19.4845 30.5958 19.4845 29.826V19.2494Z"
+					 stroke="#B1BACD" stroke-width="4" stroke-linejoin="round" />
+				</g>
+			</svg>
+		</div>
+		<div class="tabbar__name">探索</div>
+	</div>
+	<div class="tabbar__item">
+		<div class="tabbar__svg">
+			<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<!-- 裁切路径 -->
+				<clipPath id="clipPath3">
+					<path id="chat-clip-path" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 30.5467 2.62123 36.4811 6.87143 40.8111L4.74164 44.5C3.97184 45.8333 4.93408 47.5 6.47369 47.5L23.5 48C23.5 48 23.5035 47.9983 23.5102 47.9951C23.673 47.9984 23.8363 48 24 48Z"
+					 fill="#C4C4C4" />
+				</clipPath>
+				<!-- 组，图标路的元素集合 -->
+				<g clip-path="url(#clipPath3)">
+					<path id="chat-border" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 30.5467 2.62123 36.4811 6.87143 40.8111L4.74164 44.5C3.97184 45.8333 4.93408 47.5 6.47369 47.5L23.5 48C23.5 48 23.5035 47.9983 23.5102 47.9951C23.673 47.9984 23.8363 48 24 48Z"
+					 stroke="#B1BACD" stroke-width="8" stroke-linejoin="round" />
+					<use class="transition_move1" href="#transition_move1"></use>
+					<use class="transition_move2" href="#transition_move2"></use>
+					<use class="transition_move3" href="#transition_move3"></use>
+					<circle id="chat-circle1" cx="13" cy="24" r="3" fill="#B1BACD" />
+					<circle id="chat-circle2" cx="25" cy="24" r="3" fill="#B1BACD" />
+					<circle id="chat-circle3" cx="37" cy="24" r="3" fill="#B1BACD" />
+				</g>
+			</svg>
+		</div>
+		<div class="tabbar__name">尬聊</div>
+	</div>
+	<div class="tabbar__item">
+		<div class="tabbar__svg">
+			<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<!-- 裁切路径 -->
+				<clipPath id="clipPath4">
+					<path id="me-clip-path" d="M48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24Z"
+					 fill="#C4C4C4" />
+				</clipPath>
+				<!-- 组，图标路的元素集合 -->
+				<g clip-path="url(#clipPath4)">
+					<path id="me-border" d="M48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24Z"
+					 stroke="#AFB8CC" stroke-width="8" />
+					<use class="transition_move1" href="#transition_move1"></use>
+					<use class="transition_move2" href="#transition_move2"></use>
+					<use class="transition_move3" href="#transition_move3"></use>
+					<path id="me-line" d="M14 30C20.5 35.5 21 30 24 30C26.5008 30 26.5 35.5 34 30" stroke="#AFB8CC" stroke-width="4" stroke-linecap="round"
+					 stroke-linejoin="round" />
+				</g>
+			</svg>
+		</div>
+		<div class="tabbar__name">我的</div>
+	</div>
+</div>
+</body>
+</html>
+

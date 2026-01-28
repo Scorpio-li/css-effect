@@ -3,7 +3,7 @@
  * @Date: 2026-01-27 22:36:45
  * @email: lzl102872@163.com
  * @LastEditors: Derick.lizhiliang
- * @LastEditTime: 2026-01-28 22:07:21
+ * @LastEditTime: 2026-01-28 22:34:36
  * @motto: Still water run deep
  * @Description: Modify here please
  * @FilePath: /css-effect/README.md
@@ -13,6 +13,11 @@
 ## html
 
 1. china-hq: 五星红旗
+2. tabbar: 移动端底部导航栏变色
+3. shootingStars: 满天星的特效
+4. CodeShower: 代码雨
+5. ChargingAnimation: CSS 滤镜实现安卓充电动画效果
+6. ScratchCard: 刮刮卡
 
 ## Canvas
 
