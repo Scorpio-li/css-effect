@@ -3,7 +3,7 @@
  * @Date: 2026-01-27 22:36:45
  * @email: lzl102872@163.com
  * @LastEditors: Derick.lizhiliang
- * @LastEditTime: 2026-01-28 22:34:36
+ * @LastEditTime: 2026-01-30 22:45:19
  * @motto: Still water run deep
  * @Description: Modify here please
  * @FilePath: /css-effect/README.md
@@ -18,6 +18,7 @@
 4. CodeShower: 代码雨
 5. ChargingAnimation: CSS 滤镜实现安卓充电动画效果
 6. ScratchCard: 刮刮卡
+7. Christmas: 节日表白
 
 ## Canvas
 
