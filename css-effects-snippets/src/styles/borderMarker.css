@@ -1,0 +1,25 @@
+.borderMarker {
+    position: relative;
+  }
+
+  .borderMarker span {
+      z-index: 1;
+      position: relative;
+  }
+
+  .borderMarker::after {
+    content: "";
+    position: absolute;
+    left: -0.1px;
+    right: -0.1px;
+    bottom: 0;
+    height: 100%;
+    transform: scaleY(.3);
+    transition: transform .6s cubic-bezier(0.53, 0.21, 0, 1);
+    transform-origin: bottom;
+    background-color: hsl(222, 100%, 93%);
+  }
+
+  .borderMarker:hover::after {
+    transform: scaleY(1);
+  }

@@ -3,7 +3,7 @@
  * @Date: 2026-01-27 22:36:45
  * @email: lzl102872@163.com
  * @LastEditors: Derick.lizhiliang
- * @LastEditTime: 2026-01-30 22:45:19
+ * @LastEditTime: 2026-01-31 13:10:11
  * @motto: Still water run deep
  * @Description: Modify here please
  * @FilePath: /css-effect/README.md
@@ -54,3 +54,5 @@
 ### 12. 3D透视
 ### 13. promise动画库
 ### 14. 丝滑的macOS Dock效果
+
+## css-effects-snippets(css动效合集)
