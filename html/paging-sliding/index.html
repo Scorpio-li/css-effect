@@ -1,0 +1,54 @@
+<!--
+ * @Author: Derick.lizhiliang
+ * @Date: 2021-12-27 22:26:19
+ * @email: lzl102872@163.com
+ * @LastEditors: Derick.lizhiliang
+ * @LastEditTime: 2021-12-27 22:29:18
+ * @motto: Still water run deep
+ * @Description: Modify here please
+ * @FilePath: /project-collection/CSS-Modules/paging-sliding/index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分页滑动效果</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- 是指当鼠标在页面左边时，左边的页面扩大，右边收缩；
+        当鼠标在页面右边时，右边的页面扩大，左边收缩的一个动画效果，
+        这种效果一般在 手机购物网站、游戏机购物网站、服装购物网站有广泛的使用，
+        今天我们就一起来学习一个如何使用代码实现这一效果。 -->
+    <div class="container">
+        <div class="split left">
+            <h1>iphone 8Plus</h1>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+        <div class="split right">
+            <h1>ipad 2018</h1>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+    </div>
+</body>
+<script>
+    /**
+     * 通过 document.querySelector('.left') ，获得 left 节点
+        通过 document.querySelector('.right') ，获得 right 节点
+        通过 document.querySelector('.container') ，获得 container 节点
+        通过 addEventListener 为 container 节点添加一个 鼠标移入事件 和一个 鼠标移出事件 ，这两个事件分别负责为 container 节点添加和移除一个 hover-left 的类名
+        通过 addEventListener 为 container 节点添加一个 鼠标移入事件 和一个 鼠标移出事件 ，这两个事件分别负责为 container 节点添加和移除一个 hover-right 的类名
+     * */ 
+    const left = document.querySelector('.left')
+    const right = document.querySelector('.right')
+    const container = document.querySelector('.container')
+
+    left.addEventListener('mouseenter', () => container.classList.add('hover-left'))
+    left.addEventListener('mouseleave', () => container.classList.remove('hover-left'))
+
+    right.addEventListener('mouseenter', () => container.classList.add('hover-right'))
+    right.addEventListener('mouseleave', () => container.classList.remove('hover-right'))
+
+</script>
+</html>

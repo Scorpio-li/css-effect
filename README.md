@@ -3,7 +3,7 @@
  * @Date: 2026-01-27 22:36:45
  * @email: lzl102872@163.com
  * @LastEditors: Derick.lizhiliang
- * @LastEditTime: 2026-01-31 13:10:11
+ * @LastEditTime: 2026-02-02 23:06:43
  * @motto: Still water run deep
  * @Description: Modify here please
  * @FilePath: /css-effect/README.md
@@ -19,6 +19,7 @@
 5. ChargingAnimation: CSS 滤镜实现安卓充电动画效果
 6. ScratchCard: 刮刮卡
 7. Christmas: 节日表白
+8. paging-sliding: 页面分页滑动效果
 
 ## Canvas
 
