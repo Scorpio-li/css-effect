@@ -1,13 +1,4 @@
-<!--
- * @Author: Derick.lizhiliang
- * @Date: 2026-01-27 22:36:45
- * @email: lzl102872@163.com
- * @LastEditors: Derick.lizhiliang
- * @LastEditTime: 2026-02-02 23:09:36
- * @motto: Still water run deep
- * @Description: Modify here please
- * @FilePath: /css-effect/README.md
--->
+
 # css动画及图形
 
 ## html
