@@ -1,0 +1,67 @@
+<!--
+ * @Description: 
+ * @Author: Lizhiliang
+ * @Date: 2026-02-11 14:51:33
+ * @LastEditTime: 2026-02-11 14:52:49
+ * @LastEditors: lizhiliang
+ * @Usage: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>通过在不同关键帧处调整计数来启用数字</title>
+    <style>
+        div::after {
+            font: 800 40px system-ui;
+            content: counter(count);
+            animation: counter 5s linear infinite alternate;
+            counter-reset: count 0;
+        }
+
+        @keyframes counter {
+            0% {
+                counter-increment: count 0;
+            }
+            10% {
+                counter-increment: count 1;
+            }
+            20% {
+                counter-increment: count 2;
+            }
+            30% {
+                counter-increment: count 3;
+            }
+            40% {
+                counter-increment: count 4;
+            }
+            50% {
+                counter-increment: count 5;
+            }
+            60% {
+                counter-increment: count 6;
+            }
+            70% {
+                counter-increment: count 7;
+            }
+            80% {
+                counter-increment: count 8;
+            }
+            90% {
+                counter-increment: count 9;
+            }
+            100% {
+                counter-increment: count 10;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+
+<div></div>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字母切换</title>
+    <style>
+        @property --num {
+  syntax: "<integer>";
+  initial-value: 3 * 26 * 26 + 19 * 26 + 19;
+  inherits: false;
+}
+
+div {
+  transition: --num 0.25s;
+  counter-set: num var(--num);
+  font: 800 40px system-ui;
+  padding: 2rem;
+}
+div::after {
+  content: counter(num, lower-alpha);
+}
+div:hover {
+  --num: #{25 * 26 * 26 + 5 * 26 + 19};
+}
+    </style>
+</head>
+<body>
+    
+
+<div></div>
+
+
+</body>
+</html>

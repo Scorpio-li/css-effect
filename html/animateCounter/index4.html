@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS自定义属性</title>
+    <!-- 动画实现 -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 基础实现 -->
+    <!-- <style>
+        @property --num {
+            syntax: "<integer>";
+            initial-value: 0;
+            inherits: false;
+        }
+
+        div {
+            transition: --num 5s;
+            counter-set: num var(--num);
+            font: 800 40px system-ui;
+        }
+        div::after {
+            /* CSScontent属性可用于显示数字,但我们仍需使用counter将数字转换为字符串,因为content只能输出<string>价值观 */
+            content: counter(num);
+        }
+        div:hover {
+            --num: 100;
+        }
+
+        body {
+            margin: 2rem;
+        }
+    </style> -->
+</head>
+<body>
+    
+<p>计数器仅支持整数</p>
+Hover the number.
+<div></div>
+
+
+</body>
+</html>
