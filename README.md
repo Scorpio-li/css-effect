@@ -32,6 +32,7 @@
 4. 图片转canvas编辑
 5. 烟花
 6. 水滴
+7. 签名功能(signature)
 
 ### css-animation
 
