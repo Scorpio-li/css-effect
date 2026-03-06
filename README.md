@@ -12,6 +12,7 @@
 7. Christmas: 节日表白
 8. paging-sliding: 页面分页滑动效果
 9. 3D-rotating-album: 3D旋转图册
+10. 放大镜功能: (magnifyingGlass)
 
 ## Canvas
 
@@ -49,5 +50,6 @@
 13. promise动画库
 14. 丝滑的macOS Dock效果
 15. 动画数字计数器(animateCounter)
+16. 
 
 ## css-effects-snippets(css动效合集)
