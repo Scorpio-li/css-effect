@@ -13,7 +13,7 @@
 8. paging-sliding: 页面分页滑动效果
 9. 3D-rotating-album: 3D旋转图册
 10. 放大镜功能: (magnifyingGlass)
-
+11. 页面布局: (pageLayout)
 ## Canvas
 
 - [Canvas Learning + Demo](https://scorpio-li.github.io/css-effect/canvas)
