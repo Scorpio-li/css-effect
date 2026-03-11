@@ -1,3 +1,11 @@
+<!--
+ * @Description: 
+ * @Author: Lizhiliang
+ * @Date: 2026-02-11 14:44:13
+ * @LastEditTime: 2026-03-11 16:28:47
+ * @LastEditors: lizhiliang
+ * @Usage: 
+-->
 
 # css动画及图形
 
@@ -14,6 +22,8 @@
 9. 3D-rotating-album: 3D旋转图册
 10. 放大镜功能: (magnifyingGlass)
 11. 页面布局: (pageLayout)
+12. App Store 卡片展开效果: (cardShow)
+
 ## Canvas
 
 - [Canvas Learning + Demo](https://scorpio-li.github.io/css-effect/canvas)
