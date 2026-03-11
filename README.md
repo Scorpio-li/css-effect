@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2026-02-11 14:44:13
- * @LastEditTime: 2026-03-11 16:28:47
+ * @LastEditTime: 2026-03-11 16:33:41
  * @LastEditors: lizhiliang
  * @Usage: 
 -->
@@ -23,7 +23,7 @@
 10. 放大镜功能: (magnifyingGlass)
 11. 页面布局: (pageLayout)
 12. App Store 卡片展开效果: (cardShow)
-
+13. 边框处理: (borderDealwith)
 ## Canvas
 
 - [Canvas Learning + Demo](https://scorpio-li.github.io/css-effect/canvas)
