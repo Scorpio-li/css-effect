@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2026-02-11 14:44:13
- * @LastEditTime: 2026-03-12 18:01:37
+ * @LastEditTime: 2026-03-12 18:14:27
  * @LastEditors: lizhiliang
  * @Usage: 
 -->
@@ -25,6 +25,7 @@
 12. App Store 卡片展开效果: (cardShow)
 13. 边框处理: (borderDealwith)
 14. content-visibility让长列表网页的渲染性能提升: (content-visibility)
+15. 骨架屏 Skeleton 效果: (skeleton)
 ## Canvas
 
 - [Canvas Learning + Demo](https://scorpio-li.github.io/css-effect/canvas)
