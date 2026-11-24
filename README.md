@@ -2,8 +2,8 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2026-02-11 14:44:13
- * @LastEditTime: 2026-10-04
- * @LastEditors: lizhiliang
+ * @LastEditTime: 2026-11-24 16:47:30
+ * @LastEditors: Derick.lizhiliang
  * @Usage: 
 -->
 
@@ -11,22 +11,7 @@
 
 ## html
 
-1. china-hq.html: 五星红旗
-2. tabbar: 移动端底部导航栏变色
-3. shootingStarts: 满天星的特效
-4. CodeShower: 代码雨
-5. ChargingAnimation: CSS 滤镜实现安卓充电动画效果
-6. ScratchCard: 刮刮卡
 7. Christma: 节日表白
-8. paging-sliding: 页面分页滑动效果
-9. 3D-rotating-album: 3D旋转图册
-10. 放大镜功能: (magnifyingGlass)
-11. 页面布局: (pageLayout)
-12. App Store 卡片展开效果: (cardShow)
-13. 边框处理: (borderDealwith)
-14. content-visibility让长列表网页的渲染性能提升: (content-visibility)
-15. 骨架屏 Skeleton 效果: (skeleton)
-16. 动画数字计数器: (animateCounter)
 
 ## Canvas
 
